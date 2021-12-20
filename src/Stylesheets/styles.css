@@ -1,0 +1,13 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    padding: 15px;
+  }
+  .ReactBtn{
+    margin-right: 2vw !important;
+    border-color: orange !important;
+  }
+  

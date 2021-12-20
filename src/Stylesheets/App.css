@@ -1,5 +1,15 @@
+html, body{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+body{
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
+  margin-top: 20vh;
 }
 
 .App-logo {
@@ -12,20 +22,22 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.Article{
+margin-top: 100px;
+margin-bottom: 100px;
+}
+input{
+  color: white !important;
+}
 .App-header {
-  background-color: #282c34;
+  background-color:white;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:black;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #203b42;
 }
 
 @keyframes App-logo-spin {

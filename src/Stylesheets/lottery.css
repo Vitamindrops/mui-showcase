@@ -1,0 +1,78 @@
+.lotteryBall {
+  width: 5vh !important;
+  height: 5vh !important;
+  cursor: pointer;
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center !important;
+  border: solid 1.5px blue;
+  font-size: 16px !important;
+  line-height: 23px;
+
+}
+.ballNum{
+  padding-top: 3px;
+}
+.WinlotteryBall{
+  width: 8vh !important;
+  height: 8vh !important;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(175, 22, 22);
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid white;
+  justify-content: center;
+}
+.redWinBall{
+padding-Top: 2vh;
+justify-content: center;
+
+}
+.container {
+  padding: 5vh;
+  justify-content: center;
+}
+.btnDraw {
+  background-color: #e9582b;
+  border: none;
+  color: white;
+  padding: 2vh 3vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+}
+.colWinDraw{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.colRed{
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  justify-content: center;
+}
+.colBlueBalls{
+  padding: 1vh !important;
+}
+
+.colBlack{
+  background-color: black;
+  display: flex;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+.bg-success{
+  color: white;
+  background-color: green;
+  border: solid green;
+}
+.bg-danger{
+  color: blue;
+}
